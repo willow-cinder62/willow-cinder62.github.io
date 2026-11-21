@@ -1,0 +1,1408 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>极品反差_影像内容_多元视角精品视频品牌</title>
+<meta name="description" content="极品反差官方网站是专注多元视角与叙事张力的视频品牌平台，汇聚原创创作者与精品内容，呈现高质量影像社区与企业级内容生态。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231b1d2b'/%3E%3Cpath d='M26 20l22 12-22 12z' fill='%23ff5d6c'/%3E%3Cpath d='M16 18v28' stroke='%23f6d365' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+<style>
+:root{
+  --jd-ink:#1b1d2b;
+  --jd-ink2:#2a2d3f;
+  --jd-fluo:#ff5d6c;
+  --jd-gold:#f6d365;
+  --jd-mist:#eef0f6;
+  --jd-paper:#f7f8fc;
+  --jd-line:#dfe3ee;
+  --jd-text:#3a3f52;
+  --jd-sub:#6b7186;
+  --jd-radius:16px;
+  --jd-shadow:0 10px 30px rgba(27,29,43,.10);
+  --jd-shadow-sm:0 4px 14px rgba(27,29,43,.08);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+html{scroll-padding-top:132px}
+body{
+  margin:0;
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,sans-serif;
+  background:var(--jd-paper);
+  color:var(--jd-text);
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit}
+.jd-wrap{max-width:1180px;margin:0 auto;padding:0 22px}
+
+/* ============ sticky top: announcement + header ============ */
+.jd-sticky{position:sticky;top:0;z-index:120}
+.jd-announce{
+  background:linear-gradient(90deg,var(--jd-ink),var(--jd-ink2));
+  color:#fff;font-size:13px;letter-spacing:.2px;
+}
+.jd-announce-inner{
+  max-width:1180px;margin:0 auto;padding:9px 22px;
+  display:flex;align-items:center;gap:12px;flex-wrap:wrap;
+}
+.jd-announce-tag{
+  background:var(--jd-fluo);color:#fff;border-radius:6px;
+  padding:1px 9px;font-size:12px;font-weight:700;letter-spacing:.5px;flex:none;
+}
+.jd-announce-list{display:flex;gap:22px;flex-wrap:wrap;overflow:hidden}
+.jd-announce-list span{opacity:.92}
+.jd-announce-list em{color:var(--jd-gold);font-style:normal}
+.jd-announce-close{
+  margin-left:auto;background:none;border:0;color:#fff;opacity:.6;cursor:pointer;
+  font-size:16px;line-height:1;padding:2px 4px;flex:none;
+}
+.jd-announce-close:hover{opacity:1}
+
+.jd-header{
+  background:rgba(247,248,252,.92);
+  backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--jd-line);
+}
+.jd-header-inner{
+  max-width:1180px;margin:0 auto;padding:12px 22px;
+  display:flex;align-items:center;gap:26px;
+}
+.jd-logo{display:flex;align-items:center;gap:11px;flex:none}
+.jd-logo-mark{
+  width:42px;height:42px;border-radius:12px;flex:none;
+  background:radial-gradient(circle at 30% 25%,var(--jd-fluo),var(--jd-ink) 78%);
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 6px 16px rgba(255,93,108,.32);
+}
+.jd-logo-mark svg{width:20px;height:20px}
+.jd-logo-text{display:flex;flex-direction:column;line-height:1.2}
+.jd-logo-name{font-size:19px;font-weight:800;color:var(--jd-ink);letter-spacing:.5px}
+.jd-logo-sub{font-size:10.5px;color:var(--jd-sub);letter-spacing:2.4px;text-transform:uppercase}
+
+.jd-nav{display:flex;gap:4px;flex:1;flex-wrap:wrap}
+.jd-nav a{
+  padding:7px 12px;border-radius:9px;font-size:14.5px;color:var(--jd-text);
+  font-weight:500;transition:.2s;white-space:nowrap;
+}
+.jd-nav a:hover{background:#fff;color:var(--jd-ink);box-shadow:var(--jd-shadow-sm)}
+
+.jd-header-actions{display:flex;align-items:center;gap:10px;flex:none}
+.jd-search{position:relative}
+.jd-search input{
+  width:186px;padding:9px 34px 9px 14px;border-radius:10px;
+  border:1px solid var(--jd-line);background:#fff;font-size:13.5px;outline:none;
+  transition:.2s;color:var(--jd-text);
+}
+.jd-search input:focus{border-color:var(--jd-fluo);box-shadow:0 0 0 3px rgba(255,93,108,.12);width:216px}
+.jd-search-btn{
+  position:absolute;right:4px;top:50%;transform:translateY(-50%);
+  background:none;border:0;cursor:pointer;color:var(--jd-sub);padding:5px;
+  display:flex;align-items:center;
+}
+.jd-search-btn:hover{color:var(--jd-fluo)}
+.jd-search-hint{
+  position:absolute;top:calc(100% + 8px);left:0;right:0;background:#fff;
+  border-radius:11px;box-shadow:var(--jd-shadow);border:1px solid var(--jd-line);
+  padding:8px;font-size:13px;display:none;z-index:60;
+}
+.jd-search-hint.jd-open{display:block}
+.jd-search-hint p{margin:0;padding:7px 10px;border-radius:7px;color:var(--jd-sub);cursor:pointer}
+.jd-search-hint p:hover{background:var(--jd-mist);color:var(--jd-ink)}
+.jd-search-hint .jd-empty{color:var(--jd-fluo);cursor:default}
+.jd-burger{
+  display:none;background:#fff;border:1px solid var(--jd-line);border-radius:10px;
+  width:40px;height:40px;cursor:pointer;align-items:center;justify-content:center;
+}
+.jd-burger span{display:block;width:17px;height:2px;background:var(--jd-ink);position:relative}
+.jd-burger span::before,.jd-burger span::after{
+  content:"";position:absolute;left:0;width:17px;height:2px;background:var(--jd-ink);
+}
+.jd-burger span::before{top:-5px}
+.jd-burger span::after{top:5px}
+
+/* ============ hero ============ */
+.jd-hero{
+  background:
+    radial-gradient(900px 420px at 82% -10%,rgba(255,93,108,.22),transparent 62%),
+    radial-gradient(700px 380px at 6% 10%,rgba(246,211,101,.18),transparent 60%),
+    linear-gradient(160deg,#14151f,#22243a 55%,#1b1d2b);
+  color:#f2f3f8;padding:62px 0 68px;position:relative;overflow:hidden;
+}
+.jd-hero::after{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);
+  background-size:64px 64px;
+}
+.jd-hero-inner{
+  position:relative;z-index:2;max-width:1180px;margin:0 auto;padding:0 22px;
+  display:grid;grid-template-columns:1.08fr .92fr;gap:52px;align-items:center;
+}
+.jd-eyebrow{
+  display:inline-flex;align-items:center;gap:9px;font-size:12.5px;letter-spacing:1.6px;
+  color:var(--jd-gold);border:1px solid rgba(246,211,101,.36);border-radius:999px;
+  padding:5px 15px;margin-bottom:20px;background:rgba(246,211,101,.06);
+}
+.jd-eyebrow i{width:6px;height:6px;border-radius:50%;background:var(--jd-gold);font-style:normal;display:block}
+.jd-hero h1{
+  font-size:clamp(38px,4.6vw,58px);line-height:1.12;margin:0 0 18px;
+  letter-spacing:1px;font-weight:800;color:#fff;
+}
+.jd-hero h1 b{
+  color:var(--jd-fluo);font-weight:800;
+  background:linear-gradient(100deg,var(--jd-fluo),var(--jd-gold));
+  -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
+}
+.jd-hero-lead{font-size:16px;color:#b8bdcf;max-width:520px;margin:0 0 26px}
+.jd-hero-cta{display:flex;gap:13px;flex-wrap:wrap;margin-bottom:34px}
+.jd-btn{
+  display:inline-flex;align-items:center;gap:8px;border-radius:11px;padding:12px 22px;
+  font-size:14.5px;font-weight:600;cursor:pointer;border:1px solid transparent;transition:.22s;
+}
+.jd-btn-primary{background:var(--jd-fluo);color:#fff;box-shadow:0 8px 22px rgba(255,93,108,.34)}
+.jd-btn-primary:hover{transform:translateY(-2px);box-shadow:0 12px 28px rgba(255,93,108,.44)}
+.jd-btn-ghost{background:rgba(255,255,255,.07);color:#fff;border-color:rgba(255,255,255,.22)}
+.jd-btn-ghost:hover{background:rgba(255,255,255,.14)}
+
+.jd-hero-stats{display:flex;gap:34px;flex-wrap:wrap}
+.jd-hero-stat strong{display:block;font-size:28px;font-weight:800;color:#fff;line-height:1.2;letter-spacing:.5px}
+.jd-hero-stat strong em{font-style:normal;color:var(--jd-fluo);font-size:15px;margin-left:2px}
+.jd-hero-stat span{font-size:12.5px;color:#8f96ad}
+
+.jd-hero-visual{position:relative}
+.jd-hero-frame{
+  border-radius:20px;overflow:hidden;border:1px solid rgba(255,255,255,.14);
+  box-shadow:0 26px 60px rgba(0,0,0,.42);background:#0f1018;
+}
+.jd-hero-frame img{width:100%;aspect-ratio:16/10;object-fit:cover}
+.jd-hero-badge{
+  position:absolute;left:-14px;bottom:26px;background:#fff;color:var(--jd-ink);
+  border-radius:13px;padding:11px 17px;box-shadow:0 14px 32px rgba(0,0,0,.28);
+  display:flex;align-items:center;gap:11px;font-size:13px;
+}
+.jd-hero-badge b{color:var(--jd-fluo);font-size:17px;font-weight:800}
+.jd-hero-badge small{display:block;color:var(--jd-sub);font-size:11px;letter-spacing:.4px}
+.jd-hero-play{
+  position:absolute;right:18px;top:18px;background:rgba(15,16,24,.62);
+  color:#fff;border-radius:999px;padding:6px 13px;font-size:12px;letter-spacing:.6px;
+  display:flex;align-items:center;gap:7px;border:1px solid rgba(255,255,255,.22);
+}
+.jd-hero-play i{width:7px;height:7px;border-radius:50%;background:var(--jd-fluo);font-style:normal;animation:jdPulse 1.6s infinite}
+@keyframes jdPulse{0%,100%{opacity:1}50%{opacity:.28}}
+
+/* ============ section base ============ */
+.jd-section{padding:68px 0}
+.jd-section.jd-alt{background:#fff;border-top:1px solid var(--jd-line);border-bottom:1px solid var(--jd-line)}
+.jd-sec-head{max-width:760px;margin-bottom:36px}
+.jd-sec-kicker{
+  font-size:12px;letter-spacing:3px;text-transform:uppercase;color:var(--jd-fluo);
+  font-weight:700;margin-bottom:10px;
+}
+.jd-sec-head h2{
+  font-size:clamp(25px,3vw,33px);margin:0 0 12px;color:var(--jd-ink);
+  letter-spacing:.5px;line-height:1.28;font-weight:800;
+}
+.jd-sec-head p{margin:0;color:var(--jd-sub);font-size:15px}
+
+/* ============ about / keyword解析 ============ */
+.jd-about-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:46px;align-items:start}
+.jd-about-card{
+  background:#fff;border-radius:var(--jd-radius);border:1px solid var(--jd-line);
+  padding:28px;box-shadow:var(--jd-shadow-sm);
+}
+.jd-about-card h3{margin:0 0 14px;font-size:19px;color:var(--jd-ink)}
+.jd-about-list{margin:0;padding:0;list-style:none}
+.jd-about-list li{
+  display:flex;gap:12px;padding:12px 0;border-bottom:1px dashed var(--jd-line);font-size:14.5px;
+}
+.jd-about-list li:last-child{border-bottom:0;padding-bottom:0}
+.jd-about-list i{
+  flex:none;width:22px;height:22px;border-radius:7px;background:rgba(255,93,108,.12);
+  color:var(--jd-fluo);font-style:normal;font-size:12px;font-weight:800;
+  display:flex;align-items:center;justify-content:center;margin-top:3px;
+}
+.jd-prose p{margin:0 0 16px;color:var(--jd-text);font-size:15px}
+.jd-prose p strong{color:var(--jd-ink)}
+.jd-quote{
+  border-left:3px solid var(--jd-fluo);background:#fff;border-radius:0 12px 12px 0;
+  padding:16px 20px;font-size:15px;color:var(--jd-ink);margin:22px 0;
+  box-shadow:var(--jd-shadow-sm);
+}
+.jd-tags{display:flex;gap:9px;flex-wrap:wrap;margin-top:8px}
+.jd-tag{
+  font-size:12.5px;padding:5px 13px;border-radius:999px;background:var(--jd-mist);
+  color:var(--jd-ink2);border:1px solid var(--jd-line);cursor:pointer;transition:.2s;
+}
+.jd-tag:hover,.jd-tag.jd-active{background:var(--jd-ink);color:#fff;border-color:var(--jd-ink)}
+
+/* ============ video cards ============ */
+.jd-video-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.jd-video-card{
+  background:#fff;border-radius:var(--jd-radius);overflow:hidden;
+  border:1px solid var(--jd-line);box-shadow:var(--jd-shadow-sm);
+  transition:.26s;display:flex;flex-direction:column;
+}
+.jd-video-card:hover{transform:translateY(-5px);box-shadow:0 18px 40px rgba(27,29,43,.14);border-color:#cfd5e6}
+.jd-video-thumb{position:relative;overflow:hidden;background:#0f1018}
+.jd-video-thumb img{width:100%;aspect-ratio:16/9;object-fit:cover;transition:.4s}
+.jd-video-card:hover .jd-video-thumb img{transform:scale(1.045)}
+.jd-video-thumb::after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(10,11,18,0) 45%,rgba(10,11,18,.62));
+}
+.jd-video-kind{
+  position:absolute;left:11px;top:11px;z-index:3;font-size:11.5px;
+  padding:3px 10px;border-radius:6px;background:rgba(255,93,108,.92);color:#fff;
+  font-weight:600;letter-spacing:.4px;
+}
+.jd-video-dur{
+  position:absolute;right:11px;bottom:11px;z-index:3;font-size:11.5px;
+  background:rgba(10,11,18,.72);color:#fff;border-radius:5px;padding:2px 8px;
+  border:1px solid rgba(255,255,255,.18);
+}
+.jd-video-tri{
+  position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:3;
+  width:46px;height:46px;border-radius:50%;background:rgba(255,255,255,.9);
+  display:flex;align-items:center;justify-content:center;
+  opacity:0;transition:.26s;box-shadow:0 6px 18px rgba(0,0,0,.3);
+}
+.jd-video-tri svg{width:15px;height:15px;margin-left:2px}
+.jd-video-card:hover .jd-video-tri{opacity:1}
+.jd-video-body{padding:17px 18px 18px;display:flex;flex-direction:column;flex:1}
+.jd-video-body h3{margin:0 0 8px;font-size:16px;line-height:1.5;color:var(--jd-ink);font-weight:700}
+.jd-video-desc{margin:0 0 13px;font-size:13.5px;color:var(--jd-sub);line-height:1.65;flex:1}
+.jd-video-meta{
+  display:flex;align-items:center;gap:9px;font-size:12.5px;color:var(--jd-sub);
+  padding-top:12px;border-top:1px solid var(--jd-line);
+}
+.jd-avatar{
+  width:26px;height:26px;border-radius:50%;flex:none;display:flex;align-items:center;
+  justify-content:center;font-size:12px;font-weight:800;color:#fff;letter-spacing:.5px;
+}
+.jd-video-meta .jd-name{color:var(--jd-ink2);font-weight:600}
+.jd-video-ops{margin-left:auto;display:flex;gap:5px}
+.jd-op{
+  background:none;border:1px solid var(--jd-line);border-radius:7px;cursor:pointer;
+  font-size:12px;color:var(--jd-sub);padding:3px 8px;display:flex;align-items:center;gap:4px;
+  transition:.2s;
+}
+.jd-op:hover{border-color:var(--jd-fluo);color:var(--jd-fluo)}
+.jd-op.jd-on{background:rgba(255,93,108,.1);border-color:var(--jd-fluo);color:var(--jd-fluo)}
+
+/* ============ spotlight ============ */
+.jd-spot-grid{display:grid;grid-template-columns:1.32fr 1fr;gap:24px}
+.jd-spot-main{
+  position:relative;border-radius:20px;overflow:hidden;min-height:400px;
+  background:#0f1018;box-shadow:var(--jd-shadow);
+}
+.jd-spot-main img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}
+.jd-spot-main::after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(200deg,rgba(15,16,24,.05) 20%,rgba(15,16,24,.88));
+}
+.jd-spot-body{position:relative;z-index:2;padding:30px;display:flex;flex-direction:column;justify-content:flex-end;height:100%;min-height:400px;color:#fff}
+.jd-spot-body h3{font-size:24px;margin:10px 0 10px;line-height:1.35;font-weight:800}
+.jd-spot-body p{margin:0 0 18px;color:#c3c8d8;font-size:14.5px;max-width:460px}
+.jd-spot-foot{display:flex;align-items:center;gap:12px;font-size:13px;color:#a8afc4;flex-wrap:wrap}
+.jd-spot-side{display:flex;flex-direction:column;gap:16px}
+.jd-spot-mini{
+  display:flex;gap:14px;background:#fff;border-radius:14px;border:1px solid var(--jd-line);
+  padding:13px;box-shadow:var(--jd-shadow-sm);transition:.22s;flex:1;align-items:center;
+}
+.jd-spot-mini:hover{transform:translateX(4px);border-color:#cfd5e6}
+.jd-spot-mini img{width:104px;height:70px;object-fit:cover;border-radius:9px;flex:none;background:#0f1018}
+.jd-spot-mini h4{margin:0 0 5px;font-size:14px;color:var(--jd-ink);line-height:1.45}
+.jd-spot-mini span{font-size:12px;color:var(--jd-sub)}
+
+/* ============ topics ============ */
+.jd-topic-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.jd-topic{
+  border-radius:15px;padding:22px;background:#fff;border:1px solid var(--jd-line);
+  box-shadow:var(--jd-shadow-sm);transition:.24s;position:relative;overflow:hidden;
+}
+.jd-topic::before{
+  content:"";position:absolute;right:-30px;top:-30px;width:90px;height:90px;
+  border-radius:50%;background:rgba(255,93,108,.09);
+}
+.jd-topic:hover{transform:translateY(-4px);border-color:rgba(255,93,108,.4)}
+.jd-topic-num{font-size:12px;color:var(--jd-fluo);font-weight:800;letter-spacing:1.5px}
+.jd-topic h3{margin:8px 0 8px;font-size:16.5px;color:var(--jd-ink);line-height:1.45}
+.jd-topic p{margin:0 0 14px;font-size:13.5px;color:var(--jd-sub);min-height:66px}
+.jd-topic-state{
+  display:inline-block;font-size:11.5px;padding:3px 10px;border-radius:999px;
+  background:var(--jd-mist);color:var(--jd-ink2);
+}
+.jd-topic-state.jd-live{background:rgba(255,93,108,.12);color:var(--jd-fluo)}
+
+/* ============ creators ============ */
+.jd-creator-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.jd-creator{
+  background:#fff;border-radius:var(--jd-radius);border:1px solid var(--jd-line);
+  padding:24px 20px;text-align:center;box-shadow:var(--jd-shadow-sm);transition:.24s;
+}
+.jd-creator:hover{transform:translateY(-4px);box-shadow:0 16px 36px rgba(27,29,43,.12)}
+.jd-creator .jd-avatar{width:62px;height:62px;font-size:22px;margin:0 auto 14px;box-shadow:0 8px 18px rgba(27,29,43,.18)}
+.jd-creator h3{margin:0 0 5px;font-size:16px;color:var(--jd-ink)}
+.jd-creator .jd-field{font-size:12px;color:var(--jd-fluo);letter-spacing:.6px;margin-bottom:10px;font-weight:600}
+.jd-creator p{font-size:13px;color:var(--jd-sub);margin:0 0 14px;min-height:58px;line-height:1.6}
+.jd-creator-data{display:flex;justify-content:center;gap:18px;font-size:12px;color:var(--jd-sub);border-top:1px solid var(--jd-line);padding-top:13px}
+.jd-creator-data b{display:block;color:var(--jd-ink);font-size:15px;font-weight:800}
+
+/* ============ wall ============ */
+.jd-wall{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
+.jd-wall-item{position:relative;border-radius:12px;overflow:hidden;background:#0f1018;box-shadow:var(--jd-shadow-sm)}
+.jd-wall-item img{width:100%;height:100%;object-fit:cover;transition:.4s}
+.jd-wall-item:hover img{transform:scale(1.06)}
+.jd-wall-item figcaption{
+  position:absolute;left:0;right:0;bottom:0;padding:18px 12px 11px;font-size:12px;color:#fff;
+  background:linear-gradient(transparent,rgba(10,11,18,.86));
+}
+.jd-wall-big{grid-column:span 3;grid-row:span 2}
+.jd-wall-big img{aspect-ratio:16/10}
+.jd-wall-mid{grid-column:span 3}
+.jd-wall-mid img{aspect-ratio:16/9}
+.jd-wall-sm{grid-column:span 2}
+.jd-wall-sm img{aspect-ratio:4/3}
+
+/* ============ reviews ============ */
+.jd-review-list{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.jd-review{
+  background:#fff;border-radius:14px;border:1px solid var(--jd-line);padding:20px;
+  box-shadow:var(--jd-shadow-sm);font-size:14px;position:relative;
+}
+.jd-review-head{display:flex;align-items:center;gap:10px;margin-bottom:11px}
+.jd-review-head b{font-size:14px;color:var(--jd-ink)}
+.jd-review-head span{font-size:11.5px;color:var(--jd-sub);margin-left:auto}
+.jd-review p{margin:0;color:var(--jd-text);line-height:1.72}
+.jd-review .jd-stars{color:var(--jd-gold);font-size:12.5px;letter-spacing:2px;margin-top:11px}
+
+/* ============ news / dynamic ============ */
+.jd-news-grid{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:start}
+.jd-news-list{margin:0;padding:0;list-style:none}
+.jd-news-list li{
+  display:flex;gap:16px;padding:16px 0;border-bottom:1px solid var(--jd-line);
+}
+.jd-news-list li:first-child{padding-top:0}
+.jd-news-date{
+  flex:none;font-size:12px;color:var(--jd-sub);font-weight:600;width:78px;letter-spacing:.4px;
+  padding-top:2px;
+}
+.jd-news-list h4{margin:0 0 4px;font-size:15px;color:var(--jd-ink);line-height:1.5}
+.jd-news-list p{margin:0;font-size:13px;color:var(--jd-sub)}
+.jd-partner-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.jd-partner{
+  border:1px solid var(--jd-line);border-radius:11px;background:#fff;
+  padding:16px 10px;text-align:center;font-size:13px;color:var(--jd-ink2);font-weight:600;
+  box-shadow:var(--jd-shadow-sm);transition:.2s;letter-spacing:.4px;
+}
+.jd-partner:hover{border-color:rgba(255,93,108,.4);color:var(--jd-fluo)}
+
+/* ============ faq ============ */
+.jd-faq{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.jd-faq details{
+  background:#fff;border:1px solid var(--jd-line);border-radius:12px;padding:0 18px;
+  box-shadow:var(--jd-shadow-sm);transition:.2s;
+}
+.jd-faq details[open]{border-color:rgba(255,93,108,.42)}
+.jd-faq summary{
+  cursor:pointer;list-style:none;padding:15px 0;font-size:14.5px;font-weight:600;color:var(--jd-ink);
+  display:flex;align-items:center;gap:10px;
+}
+.jd-faq summary::-webkit-details-marker{display:none}
+.jd-faq summary::before{
+  content:"+";flex:none;width:20px;height:20px;border-radius:6px;background:var(--jd-mist);
+  color:var(--jd-ink2);display:flex;align-items:center;justify-content:center;font-size:14px;
+  transition:.2s;
+}
+.jd-faq details[open] summary::before{content:"−";background:var(--jd-fluo);color:#fff}
+.jd-faq p{margin:0 0 16px;font-size:13.5px;color:var(--jd-sub);line-height:1.75;padding-left:30px}
+
+/* ============ contact ============ */
+.jd-contact-wrap{
+  background:linear-gradient(150deg,var(--jd-ink),#2b2f47 70%,#1b1d2b);
+  border-radius:22px;padding:44px;color:#fff;position:relative;overflow:hidden;
+}
+.jd-contact-wrap::after{
+  content:"";position:absolute;right:-60px;top:-60px;width:240px;height:240px;border-radius:50%;
+  background:radial-gradient(circle,rgba(255,93,108,.4),transparent 68%);
+}
+.jd-contact-inner{position:relative;z-index:2;display:grid;grid-template-columns:1.1fr .9fr;gap:38px;align-items:center}
+.jd-contact-inner h2{margin:0 0 13px;font-size:27px;color:#fff;letter-spacing:.5px}
+.jd-contact-inner p{margin:0 0 22px;color:#b6bccc;font-size:14.5px}
+.jd-contact-info{display:flex;flex-direction:column;gap:11px;font-size:13.5px;color:#c8cede}
+.jd-contact-info span b{color:#fff;font-weight:600;margin-right:6px}
+.jd-contact-form{display:flex;flex-direction:column;gap:11px}
+.jd-contact-form input,.jd-contact-form textarea{
+  width:100%;border-radius:10px;border:1px solid rgba(255,255,255,.2);
+  background:rgba(255,255,255,.07);color:#fff;padding:11px 14px;font-size:13.5px;outline:none;
+  font-family:inherit;
+}
+.jd-contact-form input::placeholder,.jd-contact-form textarea::placeholder{color:#8c93a8}
+.jd-contact-form input:focus,.jd-contact-form textarea:focus{border-color:var(--jd-fluo);background:rgba(255,255,255,.11)}
+.jd-contact-form textarea{resize:vertical;min-height:84px}
+
+/* ============ footer ============ */
+.jd-footer{background:#14151f;color:#98a0b6;padding:52px 0 26px;font-size:13.5px}
+.jd-footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:34px;margin-bottom:34px}
+.jd-footer h4{color:#fff;font-size:14px;margin:0 0 14px;letter-spacing:.6px}
+.jd-footer ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:9px}
+.jd-footer a:hover{color:var(--jd-fluo)}
+.jd-footer-brand{display:flex;align-items:center;gap:11px;margin-bottom:14px}
+.jd-footer-brand .jd-logo-name{color:#fff;font-size:17px}
+.jd-footer-brand .jd-logo-sub{color:#7b8298}
+.jd-footer p{margin:0 0 10px;line-height:1.8;color:#8a92a8}
+.jd-footer-bottom{
+  border-top:1px solid rgba(255,255,255,.1);padding-top:20px;
+  display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:12.5px;color:#767e94;
+}
+
+/* ============ toast & modal ============ */
+.jd-toast{
+  position:fixed;left:50%;bottom:38px;transform:translate(-50%,24px);
+  background:var(--jd-ink);color:#fff;border-radius:11px;padding:11px 22px;font-size:13.5px;
+  box-shadow:0 16px 40px rgba(0,0,0,.3);opacity:0;pointer-events:none;transition:.28s;z-index:400;
+}
+.jd-toast.jd-show{opacity:1;transform:translate(-50%,0)}
+
+.jd-modal-mask{
+  position:fixed;inset:0;background:rgba(15,16,24,.6);backdrop-filter:blur(4px);
+  display:none;align-items:center;justify-content:center;padding:22px;z-index:500;
+}
+.jd-modal-mask.jd-show{display:flex}
+.jd-modal{
+  background:#fff;border-radius:18px;max-width:440px;width:100%;padding:28px;
+  box-shadow:0 30px 70px rgba(0,0,0,.4);position:relative;
+}
+.jd-modal h3{margin:0 0 8px;font-size:19px;color:var(--jd-ink)}
+.jd-modal p{margin:0 0 18px;font-size:14px;color:var(--jd-sub)}
+.jd-modal-close{
+  position:absolute;right:16px;top:16px;background:var(--jd-mist);border:0;border-radius:8px;
+  width:30px;height:30px;cursor:pointer;color:var(--jd-ink2);font-size:15px;line-height:1;
+}
+.jd-modal-close:hover{background:#e2e6f2}
+.jd-modal label{display:block;font-size:13px;color:var(--jd-ink2);margin-bottom:6px;font-weight:600}
+.jd-modal input,.jd-modal textarea{
+  width:100%;border:1px solid var(--jd-line);border-radius:10px;padding:10px 13px;
+  font-size:13.5px;font-family:inherit;outline:none;margin-bottom:14px;color:var(--jd-text);
+}
+.jd-modal input:focus,.jd-modal textarea:focus{border-color:var(--jd-fluo);box-shadow:0 0 0 3px rgba(255,93,108,.12)}
+.jd-modal textarea{min-height:88px;resize:vertical}
+
+.jd-top{
+  position:fixed;right:26px;bottom:26px;width:46px;height:46px;border-radius:13px;
+  background:var(--jd-ink);color:#fff;border:0;cursor:pointer;display:flex;
+  align-items:center;justify-content:center;box-shadow:0 12px 28px rgba(27,29,43,.34);
+  opacity:0;pointer-events:none;transition:.28s;z-index:300;
+}
+.jd-top.jd-show{opacity:1;pointer-events:auto}
+.jd-top:hover{background:var(--jd-fluo)}
+
+/* ============ responsive ============ */
+@media (max-width:1024px){
+  .jd-hero-inner{grid-template-columns:1fr;gap:38px}
+  .jd-about-grid{grid-template-columns:1fr;gap:30px}
+  .jd-video-grid{grid-template-columns:repeat(2,1fr)}
+  .jd-spot-grid{grid-template-columns:1fr}
+  .jd-topic-grid{grid-template-columns:repeat(2,1fr)}
+  .jd-creator-grid{grid-template-columns:repeat(2,1fr)}
+  .jd-review-list{grid-template-columns:repeat(2,1fr)}
+  .jd-news-grid{grid-template-columns:1fr}
+  .jd-contact-inner{grid-template-columns:1fr;gap:26px}
+  .jd-footer-grid{grid-template-columns:1fr 1fr}
+  .jd-wall-big,.jd-wall-mid{grid-column:span 6}
+  .jd-wall-sm{grid-column:span 3}
+}
+@media (max-width:760px){
+  html{scroll-padding-top:112px}
+  .jd-header-inner{gap:14px}
+  .jd-nav{
+    display:none;position:absolute;left:0;right:0;top:100%;
+    background:rgba(247,248,252,.99);border-bottom:1px solid var(--jd-line);
+    padding:12px 22px;flex-direction:column;gap:2px;box-shadow:var(--jd-shadow);
+  }
+  .jd-nav.jd-open{display:flex}
+  .jd-nav a{padding:11px 12px}
+  .jd-burger{display:flex}
+  .jd-search input{width:130px}
+  .jd-search input:focus{width:150px}
+  .jd-announce-list span:nth-child(n+2){display:none}
+  .jd-hero{padding:44px 0 52px}
+  .jd-section{padding:50px 0}
+  .jd-video-grid{grid-template-columns:1fr}
+  .jd-topic-grid{grid-template-columns:1fr}
+  .jd-creator-grid{grid-template-columns:1fr}
+  .jd-review-list{grid-template-columns:1fr}
+  .jd-faq{grid-template-columns:1fr}
+  .jd-contact-wrap{padding:28px}
+  .jd-partner-grid{grid-template-columns:repeat(2,1fr)}
+  .jd-footer-grid{grid-template-columns:1fr}
+  .jd-hero-badge{left:10px;bottom:14px}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="jd-sticky">
+  <div class="jd-announce" id="jdAnnounce">
+    <div class="jd-announce-inner">
+      <span class="jd-announce-tag">官方发布</span>
+      <div class="jd-announce-list">
+        <span><em>11-18</em> 新专题「反差两面」首支成片上线</span>
+        <span><em>11-15</em> 创作者激励计划第 4 期报名开启</span>
+        <span><em>11-12</em> 客户端更新：收藏夹支持分组</span>
+      </div>
+      <button class="jd-announce-close" type="button" aria-label="关闭公告" onclick="document.getElementById('jdAnnounce').style.display='none'">×</button>
+    </div>
+  </div>
+  <header class="jd-header">
+    <div class="jd-header-inner">
+      <a class="jd-logo" href="#jdTop" aria-label="极品反差官方网站首页">
+        <span class="jd-logo-mark">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4l14 8-14 8z" fill="#fff"/></svg>
+        </span>
+        <span class="jd-logo-text">
+          <span class="jd-logo-name">极品反差</span>
+          <span class="jd-logo-sub">Contrast Studio</span>
+        </span>
+      </a>
+      <nav class="jd-nav" id="jdNav" aria-label="主导航">
+        <a href="#jdTop">首页</a>
+        <a href="#jdSpotlight">焦点内容</a>
+        <a href="#jdVideos">视频精选</a>
+        <a href="#jdTopics">专题企划</a>
+        <a href="#jdCreators">创作者</a>
+        <a href="#jdDynamic">企业动态</a>
+        <a href="#jdFaq">帮助</a>
+        <a href="#jdContact">联系</a>
+      </nav>
+      <div class="jd-header-actions">
+        <div class="jd-search">
+          <input id="jdSearchInput" type="text" placeholder="搜索内容 / 创作者" aria-label="站内搜索">
+          <button class="jd-search-btn" type="button" aria-label="执行搜索" onclick="jdSearch()">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6"/></svg>
+          </button>
+          <div class="jd-search-hint" id="jdSearchHint"></div>
+        </div>
+        <button class="jd-burger" type="button" aria-label="展开导航菜单" onclick="document.getElementById('jdNav').classList.toggle('jd-open')"><span></span></button>
+      </div>
+    </div>
+  </header>
+</div>
+
+<main id="jdTop">
+
+  <!-- HERO -->
+  <section class="jd-hero">
+    <div class="jd-hero-inner">
+      <div>
+        <span class="jd-eyebrow"><i></i>官方网站 · 原创影像品牌</span>
+        <h1>极品反差</h1>
+        <p class="jd-hero-lead">一个专注多元视角与叙事张力的视频品牌平台。我们相信，好的影像从不止一面：平静与热烈、克制与释放、日常与奇想，都能在同一帧里彼此映照。</p>
+        <div class="jd-hero-cta">
+          <a class="jd-btn jd-btn-primary" href="#jdVideos">进入精品内容
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a class="jd-btn jd-btn-ghost" href="#jdCreators">认识创作者</a>
+          <button class="jd-btn jd-btn-ghost" type="button" onclick="jdOpenModal('submit')">投稿报名</button>
+        </div>
+        <div class="jd-hero-stats">
+          <div class="jd-hero-stat"><strong data-count="12600">0<em>+</em></strong><span>原创影像作品</span></div>
+          <div class="jd-hero-stat"><strong data-count="380">0<em>位</em></strong><span>认证创作者</span></div>
+          <div class="jd-hero-stat"><strong data-count="92">0<em>万</em></strong><span>社区关注用户</span></div>
+        </div>
+      </div>
+      <div class="jd-hero-visual">
+        <div class="jd-hero-frame">
+          <img alt="极品反差品牌主视觉：明暗交叠的双面人像影像" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%2314151f'/%3E%3Cstop offset='1' stop-color='%233b2036'/%3E%3C/linearGradient%3E%3CradialGradient id='b' cx='.72' cy='.3' r='.66'%3E%3Cstop offset='0' stop-color='%23ff5d6c' stop-opacity='.92'/%3E%3Cstop offset='1' stop-color='%23ff5d6c' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='c' cx='.22' cy='.74' r='.52'%3E%3Cstop offset='0' stop-color='%23f6d365' stop-opacity='.55'/%3E%3Cstop offset='1' stop-color='%23f6d365' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect width='800' height='500' fill='url(%23a)'/%3E%3Crect width='800' height='500' fill='url(%23b)'/%3E%3Crect width='800' height='500' fill='url(%23c)'/%3E%3Cg opacity='.5'%3E%3Ccircle cx='400' cy='250' r='150' fill='none' stroke='%23ffffff' stroke-opacity='.28' stroke-width='1.6'/%3E%3Ccircle cx='400' cy='250' r='196' fill='none' stroke='%23ffffff' stroke-opacity='.14' stroke-width='1.2'/%3E%3C/g%3E%3Cpath d='M330 300c0-52 30-92 70-92s70 40 70 92' fill='none' stroke='%23ffffff' stroke-opacity='.7' stroke-width='2.4'/%3E%3Ccircle cx='400' cy='196' r='30' fill='none' stroke='%23ffffff' stroke-opacity='.7' stroke-width='2.4'/%3E%3Cpath d='M0 400 Q200 320 400 420 T800 380 V500 H0 Z' fill='%23ffffff' fill-opacity='.06'/%3E%3Cg fill='%23ffffff' fill-opacity='.85'%3E%3Ccircle cx='640' cy='130' r='3'/%3E%3Ccircle cx='680' cy='96' r='2'/%3E%3Ccircle cx='160' cy='120' r='2.4'/%3E%3C/g%3E%3C/svg%3E">
+        </div>
+        <span class="jd-hero-play"><i></i>专题主片 · 02:14</span>
+        <div class="jd-hero-badge">
+          <b>4.9</b>
+          <span>社区口碑评分<small>基于 12,480 份真实反馈</small></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT / 深度解析 -->
+  <section class="jd-section" id="jdAbout">
+    <div class="jd-wrap">
+      <div class="jd-sec-head">
+        <div class="jd-sec-kicker">Brand Story</div>
+        <h2>极品反差是什么，我们如何理解「反差」</h2>
+        <p>从品牌定位到内容方法论，一次把话说清楚。</p>
+      </div>
+      <div class="jd-about-grid">
+        <div class="jd-about-card">
+          <h3>品牌关键词拆解</h3>
+          <ul class="jd-about-list">
+            <li><i>1</i><span><strong>极品</strong>：不是猎奇，而是对完成度的苛求。镜头、声音、剪辑、叙事，每一环都追求可回看、可收藏的精品内容标准。</span></li>
+            <li><i>2</i><span><strong>反差</strong>：是一种叙事结构。我们让两种气质在同一个故事里对话，让观众在落差中重新认识熟悉的事物。</span></li>
+            <li><i>3</i><span><strong>影像</strong>：是我们唯一的表达载体。竖屏短片、横屏纪录、微访谈、实验拼贴，形式服从内容。</span></li>
+            <li><i>4</i><span><strong>社区</strong>：让创作者和观众成为同一件事的两面，互相塑造，也互相成就。</span></li>
+            <li><i>5</i><span><strong>企业</strong>：以长期主义持续运营，用规范的版权与审核机制守护内容生态。</span></li>
+          </ul>
+          <div class="jd-tags">
+            <span class="jd-tag jd-active" onclick="jdToast('已切换至：全部题材')">全部题材</span>
+            <span class="jd-tag" onclick="jdToast('已筛选：人物访谈')">人物访谈</span>
+            <span class="jd-tag" onclick="jdToast('已筛选：创作幕后')">创作幕后</span>
+            <span class="jd-tag" onclick="jdToast('已筛选：城市探索')">城市探索</span>
+            <span class="jd-tag" onclick="jdToast('已筛选：治愈影像')">治愈影像</span>
+          </div>
+        </div>
+        <div class="jd-prose">
+          <p><strong>极品反差官方网站</strong>是一个以「视角张力」为核心的原创视频品牌。我们不做单一情绪的堆叠，而是把镜头交给那些本身就带着矛盾感的人与事：白天写代码晚上组乐队的产品经理，在戈壁跑马拉松的中学语文老师，把废料做成家居的手作人。这些故事在表面上是两类生活的拼接，实际上是一个完整的人。</p>
+          <p>作为一家持续运营的内容企业，我们把平台定义为「<strong>创作者的内容生态底座</strong>」。从选题库、拍摄辅助工具到后期审片流程，我们为签约与入驻创作者提供标准化支持；同时通过人工审核与版权确权机制，保证每一条对外发布的内容都可溯源、可授权、可长期留存。正版与高清，是品牌的底线，也是用户选择我们的理由。</p>
+          <p>在内容方向上，极品反差坚持三条主线。第一条是<strong>人物访谈</strong>：用 8 到 20 分钟的篇幅，让一个人把两段截然不同的人生讲完整。第二条是<strong>创作幕后</strong>：把一支片子的失败镜头、废案脚本、临时改动都保留下来，让观众看到成片背后的真实取舍。第三条是<strong>城市与日常</strong>：在同一座城市里寻找反差——凌晨四点的菜市场与午夜的写字楼，老社区与新商圈，同一群人的两种生活节奏。</p>
+          <p>我们也在持续完善社区机制。创作者可以在站内发起「反差挑战」，用户可以用投票、收藏、评论参与筛选；每月我们公布一次口碑榜与新人榜，让优质内容被更多人看见。品牌希望传递的价值观是：<strong>真实的表达不需要统一口径，温和的态度也可以有力量</strong>。我们不追逐短期热度，更在意一条内容在三年后是否仍值得打开。</p>
+          <div class="jd-quote">「反差不是噱头，是理解一个人的捷径。」—— 极品反差内容团队</div>
+          <p>如果你也在做类似的表达，欢迎通过站内投稿入口提交你的作品。我们提供选题建议、剪辑思路参考与发布支持，也愿意为长期合作者提供稳定的制作资源。作为行业内的垂直影像品牌，极品反差希望与更多创作者一起，把多元、包容、匠心的内容生态做得更扎实一点。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPOTLIGHT -->
+  <section class="jd-section jd-alt" id="jdSpotlight">
+    <div class="jd-wrap">
+      <div class="jd-sec-head">
+        <div class="jd-sec-kicker">Focus</div>
+        <h2>焦点内容 · 本周品牌推荐</h2>
+        <p>由内容团队与社区编辑共同挑选，每一条都经过完整审片。</p>
+      </div>
+      <div class="jd-spot-grid">
+        <article class="jd-spot-main">
+          <img alt="焦点内容封面：深夜写字楼与清晨菜市场的双线叙事" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 620'%3E%3Cdefs%3E%3ClinearGradient id='x' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%230f1424'/%3E%3Cstop offset='1' stop-color='%23221a2c'/%3E%3C/linearGradient%3E%3ClinearGradient id='y' x1='0' y1='0' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%23ff5d6c' stop-opacity='.8'/%3E%3Cstop offset='1' stop-color='%23f6d365' stop-opacity='.1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='620' fill='url(%23x)'/%3E%3Crect x='0' y='300' width='800' height='320' fill='url(%23y)'/%3E%3Cg stroke='%23ffffff' stroke-opacity='.3' fill='none' stroke-width='1.4'%3E%3Cpath d='M90 520 V300 h90 v220 M210 520 V360 h70 v160 M310 520 V250 h110 v270'/%3E%3Cpath d='M480 520 V330 h80 v190 M590 520 V280 h100 v240'/%3E%3C/g%3E%3Cg fill='%23f6d365' fill-opacity='.8'%3E%3Crect x='105' y='330' width='14' height='16'/%3E%3Crect x='135' y='330' width='14' height='16'/%3E%3Crect x='325' y='285' width='16' height='20'/%3E%3Crect x='360' y='285' width='16' height='20'/%3E%3Crect x='620' y='320' width='14' height='18'/%3E%3C/g%3E%3Ccircle cx='620' cy='120' r='62' fill='%23ff5d6c' fill-opacity='.32'/%3E%3Ccircle cx='620' cy='120' r='34' fill='%23ff5d6c' fill-opacity='.7'/%3E%3Cpath d='M0 620 Q200 540 400 588 T800 560 V620 Z' fill='%230c0d15' fill-opacity='.85'/%3E%3C/svg%3E">
+          <div class="jd-spot-body">
+            <span class="jd-video-kind" style="position:static;display:inline-block;width:fit-content;margin-bottom:4px">本期主推</span>
+            <h3>同一栋楼里的两种时间：凌晨的清洁工与午夜的加班人</h3>
+            <p>用一条走廊串联两段生活。一个在别人离开后开始工作，一个在别人休息时仍在工作。我们在同一部电梯里完成了 17 次跟拍。</p>
+            <div class="jd-spot-foot">
+              <span>创作者：陈叙白</span><span>·</span><span>人物访谈 / 城市探索</span><span>·</span><span>18:42</span><span>·</span><span>2.6 万次收藏</span>
+            </div>
+          </div>
+        </article>
+        <div class="jd-spot-side">
+          <article class="jd-spot-mini">
+            <img alt="焦点推荐封面：废木料变成家居的手作过程" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 216'%3E%3Crect width='320' height='216' fill='%23e8ddc7'/%3E%3Crect x='0' y='140' width='320' height='76' fill='%23a67c52' fill-opacity='.55'/%3E%3Cg stroke='%237a5232' stroke-width='6' stroke-linecap='round'%3E%3Cpath d='M60 150 L120 60'/%3E%3Cpath d='M150 160 L196 84'/%3E%3Cpath d='M220 150 L262 78'/%3E%3C/g%3E%3Ccircle cx='260' cy='44' r='28' fill='%23ff5d6c' fill-opacity='.3'/%3E%3Crect x='24' y='24' width='58' height='8' rx='4' fill='%237a5232' fill-opacity='.5'/%3E%3C/svg%3E">
+            <div>
+              <h4>废料重生计划：一张旧课桌的第三次生命</h4>
+              <span>手作DIY · 09:16 · 阿辽手作</span>
+            </div>
+          </article>
+          <article class="jd-spot-mini">
+            <img alt="焦点推荐封面：山间晨雾中的背包客剪影" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 216'%3E%3Cdefs%3E%3ClinearGradient id='m' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%235b7f8f'/%3E%3Cstop offset='1' stop-color='%23c9d8d6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='320' height='216' fill='url(%23m)'/%3E%3Cpath d='M0 150 L70 96 L130 148 L200 84 L270 150 L320 112 V216 H0 Z' fill='%233b4a52' fill-opacity='.8'/%3E%3Cpath d='M0 176 Q120 154 220 178 T320 168 V216 H0 Z' fill='%23e9f0ee' fill-opacity='.55'/%3E%3Ccircle cx='250' cy='54' r='24' fill='%23f6d365' fill-opacity='.8'/%3E%3Cg stroke='%23273338' stroke-width='3' fill='none'%3E%3Cpath d='M150 168 l10 -22 l10 22'/%3E%3C/g%3E%3C/svg%3E">
+            <div>
+              <h4>在海拔三千米的清晨，遇见一个跑步的语文老师</h4>
+              <span>户外活动 · 12:05 · 李行野</span>
+            </div>
+          </article>
+          <article class="jd-spot-mini">
+            <img alt="焦点推荐封面：夜晚乐队排练室的红蓝灯光" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 216'%3E%3Crect width='320' height='216' fill='%23121520'/%3E%3Ccircle cx='96' cy='90' r='66' fill='%23ff5d6c' fill-opacity='.36'/%3E%3Ccircle cx='236' cy='130' r='60' fill='%235a7cff' fill-opacity='.3'/%3E%3Cg stroke='%23ffffff' stroke-opacity='.55' stroke-width='2.4' stroke-linecap='round'%3E%3Cpath d='M40 180 V96 M64 180 V72 M88 180 V110'/%3E%3Cpath d='M230 180 V104 M254 180 V82 M278 180 V118'/%3E%3C/g%3E%3Crect x='140' y='120' width='40' height='60' rx='4' fill='%23ffffff' fill-opacity='.16'/%3E%3C/svg%3E">
+            <div>
+              <h4>白天写代码，晚上组乐队：键盘手的双面日程</h4>
+              <span>人物访谈 · 15:30 · 周与声</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEOS -->
+  <section class="jd-section" id="jdVideos">
+    <div class="jd-wrap">
+      <div class="jd-sec-head">
+        <div class="jd-sec-kicker">Selected Works</div>
+        <h2>视频精选 · 值得反复打开的六条</h2>
+        <p>横屏纪录、竖屏短片、幕后手记，题材各异，标准一致。</p>
+      </div>
+      <div class="jd-video-grid">
+
+        <article class="jd-video-card">
+          <div class="jd-video-thumb">
+            <span class="jd-video-kind">人物访谈</span>
+            <img alt="视频封面：菜市场摊主与设计师在同一画面中对话" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Cdefs%3E%3ClinearGradient id='v1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23f3e7d3'/%3E%3Cstop offset='1' stop-color='%23d9a86c'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='360' fill='url(%23v1)'/%3E%3Crect x='0' y='250' width='640' height='110' fill='%238a5a33' fill-opacity='.4'/%3E%3Cg fill='%236b4325' fill-opacity='.6'%3E%3Crect x='60' y='228' width='90' height='28' rx='6'/%3E%3Crect x='180' y='232' width='72' height='24' rx='6'/%3E%3Ccircle cx='100' cy='220' r='12'/%3E%3Ccircle cx='210' cy='222' r='10'/%3E%3C/g%3E%3Ccircle cx='470' cy='120' r='66' fill='%23ffffff' fill-opacity='.4'/%3E%3Crect x='430' y='180' width='120' height='96' rx='10' fill='%23ffffff' fill-opacity='.28'/%3E%3Ccircle cx='490' cy='90' r='26' fill='%232f3b46' fill-opacity='.55'/%3E%3C/svg%3E">
+            <span class="jd-video-dur">14:22</span>
+            <span class="jd-video-tri"><svg viewBox="0 0 24 24" fill="#1b1d2b"><path d="M8 5l11 7-11 7z"/></svg></span>
+          </div>
+          <div class="jd-video-body">
+            <h3>卖菜二十年的阿姨，第一次走进设计工作室</h3>
+            <p class="jd-video-desc">她说自己的手只会挑菜，不会画图。三个小时后，那双手在白纸上画出了一整个摊位的改造方案。</p>
+            <div class="jd-video-meta">
+              <span class="jd-avatar" style="background:#ff5d6c">陈</span>
+              <span class="jd-name">陈叙白</span>
+              <div class="jd-video-ops">
+                <button class="jd-op" type="button" onclick="jdLike(this,1284)">♥ <span>1284</span></button>
+                <button class="jd-op" type="button" onclick="jdFav(this)">收藏</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="jd-video-card">
+          <div class="jd-video-thumb">
+            <span class="jd-video-kind">手作DIY</span>
+            <img alt="视频封面：木屑飞扬的工作台与半成品椅子" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%23e3dcc9'/%3E%3Crect x='0' y='240' width='640' height='120' fill='%239c7b52' fill-opacity='.42'/%3E%3Cg stroke='%237a5a35' stroke-width='9' stroke-linecap='round'%3E%3Cpath d='M120 250 L170 120'/%3E%3Cpath d='M240 250 L300 150'/%3E%3C/g%3E%3Crect x='340' y='150' width='150' height='110' rx='8' fill='%23b98a57' fill-opacity='.7'/%3E%3Cg fill='%23ffffff' fill-opacity='.55'%3E%3Ccircle cx='150' cy='96' r='4'/%3E%3Ccircle cx='212' cy='76' r='3'/%3E%3Ccircle cx='300' cy='112' r='3.4'/%3E%3Ccircle cx='400' cy='92' r='2.8'/%3E%3C/g%3E%3Ccircle cx='560' cy='70' r='40' fill='%23f6d365' fill-opacity='.55'/%3E%3C/svg%3E">
+            <span class="jd-video-dur">09:16</span>
+            <span class="jd-video-tri"><svg viewBox="0 0 24 24" fill="#1b1d2b"><path d="M8 5l11 7-11 7z"/></svg></span>
+          </div>
+          <div class="jd-video-body">
+            <h3>废料重生计划：一张旧课桌的第三次生命</h3>
+            <p class="jd-video-desc">从拆迁现场拉回一块开裂的桌面，我们用七道工序让它重新变成一张能用十年的书桌。</p>
+            <div class="jd-video-meta">
+              <span class="jd-avatar" style="background:#b98a57">阿</span>
+              <span class="jd-name">阿辽手作</span>
+              <div class="jd-video-ops">
+                <button class="jd-op" type="button" onclick="jdLike(this,906)">♥ <span>906</span></button>
+                <button class="jd-op" type="button" onclick="jdFav(this)">收藏</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="jd-video-card">
+          <div class="jd-video-thumb">
+            <span class="jd-video-kind">城市探索</span>
+            <img alt="视频封面：雨夜街道霓虹与行人倒影" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Cdefs%3E%3ClinearGradient id='v3' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23182030'/%3E%3Cstop offset='1' stop-color='%23312b48'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='360' fill='url(%23v3)'/%3E%3Cg fill='%23ff5d6c' fill-opacity='.72'%3E%3Crect x='60' y='130' width='14' height='90' rx='6'/%3E%3Crect x='130' y='110' width='10' height='110' rx='5'/%3E%3C/g%3E%3Cg fill='%235a7cff' fill-opacity='.7'%3E%3Crect x='470' y='120' width='12' height='100' rx='6'/%3E%3Crect x='540' y='142' width='10' height='78' rx='5'/%3E%3C/g%3E%3Crect x='0' y='280' width='640' height='80' fill='%23ffffff' fill-opacity='.08'/%3E%3Cg stroke='%23ffffff' stroke-opacity='.35' stroke-width='2'%3E%3Cpath d='M120 280 V360 M300 280 V360 M480 280 V360'/%3E%3C/g%3E%3C/svg%3E">
+            <span class="jd-video-dur">21:08</span>
+            <span class="jd-video-tri"><svg viewBox="0 0 24 24" fill="#1b1d2b"><path d="M8 5l11 7-11 7z"/></svg></span>
+          </div>
+          <div class="jd-video-body">
+            <h3>凌晨四点的城市，由哪些人组成</h3>
+            <p class="jd-video-desc">连续跟拍 12 个夜晚，记录那些在大多数人睡着之后才开始工作的人。</p>
+            <div class="jd-video-meta">
+              <span class="jd-avatar" style="background:#3b4a6b">林</span>
+              <span class="jd-name">林向晚</span>
+              <div class="jd-video-ops">
+                <button class="jd-op" type="button" onclick="jdLike(this,2130)">♥ <span>2130</span></button>
+                <button class="jd-op" type="button" onclick="jdFav(this)">收藏</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="jd-video-card">
+          <div class="jd-video-thumb">
+            <span class="jd-video-kind">创作幕后</span>
+            <img alt="视频封面：剪辑软件时间线与散落的脚本稿" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%23eef1f8'/%3E%3Crect x='40' y='40' width='560' height='230' rx='10' fill='%23ffffff' stroke='%23cfd6e6' stroke-width='2'/%3E%3Cg fill='%23ff5d6c' fill-opacity='.55'%3E%3Crect x='66' y='86' width='120' height='16' rx='4'/%3E%3Crect x='200' y='86' width='70' height='16' rx='4'/%3E%3C/g%3E%3Cg fill='%235a7cff' fill-opacity='.45'%3E%3Crect x='66' y='120' width='170' height='16' rx='4'/%3E%3Crect x='250' y='120' width='90' height='16' rx='4'/%3E%3C/g%3E%3Cg fill='%23b98a57' fill-opacity='.5'%3E%3Crect x='66' y='154' width='90' height='16' rx='4'/%3E%3Crect x='172' y='154' width='150' height='16' rx='4'/%3E%3C/g%3E%3Cg stroke='%23cfd6e6' stroke-width='2'%3E%3Cpath d='M66 200 H560 M66 230 H560'/%3E%3C/g%3E%3Crect x='370' y='196' width='8' height='38' fill='%23ff5d6c'/%3E%3C/svg%3E">
+            <span class="jd-video-dur">17:45</span>
+            <span class="jd-video-tri"><svg viewBox="0 0 24 24" fill="#1b1d2b"><path d="M8 5l11 7-11 7z"/></svg></span>
+          </div>
+          <div class="jd-video-body">
+            <h3>一支片子被推翻七次之后，我们留下了什么</h3>
+            <p class="jd-video-desc">废案脚本、被删掉的旁白、临时改掉的结局。这一期把失败的部分完整摊开。</p>
+            <div class="jd-video-meta">
+              <span class="jd-avatar" style="background:#6b5bd2">周</span>
+              <span class="jd-name">周与声</span>
+              <div class="jd-video-ops">
+                <button class="jd-op" type="button" onclick="jdLike(this,1520)">♥ <span>1520</span></button>
+                <button class="jd-op" type="button" onclick="jdFav(this)">收藏</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="jd-video-card">
+          <div class="jd-video-thumb">
+            <span class="jd-video-kind">治愈影像</span>
+            <img alt="视频封面：窗边阳光下打盹的橘猫" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Cdefs%3E%3ClinearGradient id='v5' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23fdf3e2'/%3E%3Cstop offset='1' stop-color='%23f0d9b5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='360' fill='url(%23v5)'/%3E%3Crect x='60' y='40' width='240' height='180' rx='8' fill='%23ffffff' fill-opacity='.75' stroke='%23c9a97c' stroke-width='3'/%3E%3Cpath d='M60 220 L300 40' stroke='%23ffffff' stroke-opacity='.6' stroke-width='14'/%3E%3Cellipse cx='430' cy='250' rx='95' ry='52' fill='%23e59a4c' fill-opacity='.8'/%3E%3Ccircle cx='520' cy='212' r='38' fill='%23e59a4c' fill-opacity='.9'/%3E%3Cpath d='M500 186 l-10 -24 l24 12 z' fill='%23c97c34'/%3E%3Cpath d='M540 186 l10 -24 l-24 12 z' fill='%23c97c34'/%3E%3Ccircle cx='534' cy='208' r='4' fill='%232b1e12'/%3E%3Ccircle cx='512' cy='208' r='4' fill='%232b1e12'/%3E%3C/svg%3E">
+            <span class="jd-video-dur">06:32</span>
+            <span class="jd-video-tri"><svg viewBox="0 0 24 24" fill="#1b1d2b"><path d="M8 5l11 7-11 7z"/></svg></span>
+          </div>
+          <div class="jd-video-body">
+            <h3>搬家第七天，它终于愿意睡在窗边</h3>
+            <p class="jd-video-desc">一只从救助站带回的猫，用一周时间重新学习如何相信一个房间。</p>
+            <div class="jd-video-meta">
+              <span class="jd-avatar" style="background:#e59a4c">苏</span>
+              <span class="jd-name">苏叶日常</span>
+              <div class="jd-video-ops">
+                <button class="jd-op" type="button" onclick="jdLike(this,3412)">♥ <span>3412</span></button>
+                <button class="jd-op" type="button" onclick="jdFav(this)">收藏</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="jd-video-card">
+          <div class="jd-video-thumb">
+            <span class="jd-video-kind">行业观察</span>
+            <img alt="视频封面：创作者工作台与多屏剪辑场景" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Crect width='640' height='360' fill='%231a1d2c'/%3E%3Cg%3E%3Crect x='70' y='70' width='200' height='120' rx='6' fill='%23ff5d6c' fill-opacity='.35'/%3E%3Crect x='300' y='70' width='140' height='120' rx='6' fill='%23f6d365' fill-opacity='.3'/%3E%3Crect x='470' y='70' width='100' height='120' rx='6' fill='%235a7cff' fill-opacity='.32'/%3E%3C/g%3E%3Crect x='70' y='220' width='500' height='14' rx='7' fill='%23ffffff' fill-opacity='.2'/%3E%3Crect x='70' y='250' width='320' height='14' rx='7' fill='%23ffffff' fill-opacity='.12'/%3E%3Crect x='70' y='280' width='180' height='14' rx='7' fill='%23ffffff' fill-opacity='.08'/%3E%3C/svg%3E">
+            <span class="jd-video-dur">23:50</span>
+            <span class="jd-video-tri"><svg viewBox="0 0 24 24" fill="#1b1d2b"><path d="M8 5l11 7-11 7z"/></svg></span>
+          </div>
+          <div class="jd-video-body">
+            <h3>内容行业的下一个五年，拼的到底是什么</h3>
+            <p class="jd-video-desc">我们和六位从业者聊了聊制作成本、观众耐心与平台机制，答案比想象中朴素。</p>
+            <div class="jd-video-meta">
+              <span class="jd-avatar" style="background:#3b7a6b">何</span>
+              <span class="jd-name">何观内容</span>
+              <div class="jd-video-ops">
+                <button class="jd-op" type="button" onclick="jdLike(this,1088)">♥ <span>1088</span></button>
+                <button class="jd-op" type="button" onclick="jdFav(this)">收藏</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TOPICS -->
+  <section class="jd-section jd-alt" id="jdTopics">
+    <div class="jd-wrap">
+      <div class="jd-sec-head">
+        <div class="jd-sec-kicker">Projects</div>
+        <h2>专题企划 · 长期追踪的四条线</h2>
+        <p>每个专题持续更新，接受创作者报名与社区共创。</p>
+      </div>
+      <div class="jd-topic-grid">
+        <article class="jd-topic">
+          <span class="jd-topic-num">01 / 人物</span>
+          <h3>两面之间</h3>
+          <p>邀请同一个人讲述他生活中最不相似的两个部分：职业与爱好、白天与深夜、故乡与异地。</p>
+          <span class="jd-topic-state jd-live">更新中 · 已上线 18 期</span>
+        </article>
+        <article class="jd-topic">
+          <span class="jd-topic-num">02 / 城市</span>
+          <h3>同一座城的两副面孔</h3>
+          <p>用两条路线、两个时段、两组人物，拼出同一座城市的完整表情。首季覆盖五座城市。</p>
+          <span class="jd-topic-state jd-live">更新中 · 已上线 9 期</span>
+        </article>
+        <article class="jd-topic">
+          <span class="jd-topic-num">03 / 幕后</span>
+          <h3>推翻重来</h3>
+          <p>把废案、失败镜头与临时改动摆上台面，讨论创作中那些不被看见的取舍。</p>
+          <span class="jd-topic-state">第 2 季筹备中</span>
+        </article>
+        <article class="jd-topic">
+          <span class="jd-topic-num">04 / 社区</span>
+          <h3>反差挑战赛</h3>
+          <p>面向全站创作者的主题征稿，每期一个限定条件。优胜作品进入品牌年度精选合辑。</p>
+          <span class="jd-topic-state jd-live">报名中 · 截止 12-15</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CREATORS -->
+  <section class="jd-section" id="jdCreators">
+    <div class="jd-wrap">
+      <div class="jd-sec-head">
+        <div class="jd-sec-kicker">Creators</div>
+        <h2>创作者矩阵 · 内容生态的中坚力量</h2>
+        <p>他们来自不同行业，但都在用自己的方式处理「反差」这个命题。</p>
+      </div>
+      <div class="jd-creator-grid">
+
+        <article class="jd-creator">
+          <div class="jd-avatar" style="background:#ff5d6c">陈</div>
+          <h3>陈叙白</h3>
+          <div class="jd-field">人物访谈 · 城市纪录</div>
+          <p>前杂志编辑，擅长长访谈与慢节奏跟拍，喜欢在对话里找矛盾。</p>
+          <div class="jd-creator-data">
+            <span><b>128</b>作品</span><span><b>21.4万</b>关注</span>
+          </div>
+        </article>
+
+        <article class="jd-creator">
+          <div class="jd-avatar" style="background:#b98a57">阿</div>
+          <h3>阿辽手作</h3>
+          <div class="jd-field">手作DIY · 家居改造</div>
+          <p>木工七年，坚持用回收材料做家具。视频里保留每一次锯歪的痕迹。</p>
+          <div class="jd-creator-data">
+            <span><b>96</b>作品</span><span><b>14.8万</b>关注</span>
+          </div>
+        </article>
+
+        <article class="jd-creator">
+          <div class="jd-avatar" style="background:#3b4a6b">林</div>
+          <h3>林向晚</h3>
+          <div class="jd-field">城市探索 · 夜景纪实</div>
+          <p>习惯凌晨出门拍摄，镜头里多是路灯、便利店和还没醒的街道。</p>
+          <div class="jd-creator-data">
+            <span><b>74</b>作品</span><span><b>18.2万</b>关注</span>
+          </div>
+        </article>
+
+        <article class="jd-creator">
+          <div class="jd-avatar" style="background:#e59a4c">苏</div>
+          <h3>苏叶日常</h3>
+          <div class="jd-field">治愈影像 · 萌宠日常</div>
+          <p>记录两只救助猫的日常，画风安静，几乎没有配乐，只有环境声。</p>
+          <div class="jd-creator-data">
+            <span><b>210</b>作品</span><span><b>32.6万</b>关注</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- WALL -->
+  <section class="jd-section jd-alt" id="jdWall">
+    <div class="jd-wrap">
+      <div class="jd-sec-head">
+        <div class="jd-sec-kicker">Gallery</div>
+        <h2>社区影像墙 · 用户作品精选</h2>
+        <p>来自站内创作者的静帧画面，主题各异，视角各自成立。</p>
+      </div>
+      <div class="jd-wall">
+        <figure class="jd-wall-item jd-wall-big">
+          <img alt="影像墙作品：清晨窗台上摊开的手写笔记本与咖啡" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 400'%3E%3Crect width='640' height='400' fill='%23f2ece0'/%3E%3Crect x='0' y='290' width='640' height='110' fill='%23c8a980' fill-opacity='.45'/%3E%3Crect x='120' y='180' width='240' height='130' rx='6' fill='%23ffffff' stroke='%23c0a884' stroke-width='3'/%3E%3Cg stroke='%23c0a884' stroke-width='2'%3E%3Cpath d='M150 212 H330 M150 240 H310 M150 268 H290'/%3E%3C/g%3E%3Crect x='420' y='200' width='96' height='110' rx='10' fill='%23ffffff' stroke='%23c0a884' stroke-width='3'/%3E%3Cellipse cx='468' cy='200' rx='48' ry='12' fill='%236b4325' fill-opacity='.85'/%3E%3Cpath d='M468 200 q-14 -34 8 -46 q20 12 8 46' fill='%23ffffff' fill-opacity='.5'/%3E%3C/svg%3E">
+          <figcaption>清晨七点的书桌 · 创作者 苏叶日常</figcaption>
+        </figure>
+        <figure class="jd-wall-item jd-wall-sm">
+          <img alt="影像墙作品：地铁站台低头看手机的人群剪影" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 240'%3E%3Crect width='320' height='240' fill='%23202a3a'/%3E%3Crect x='0' y='170' width='320' height='70' fill='%23ffffff' fill-opacity='.08'/%3E%3Cg fill='%230f1420'%3E%3Ccircle cx='70' cy='110' r='16'/%3E%3Crect x='56' y='126' width='28' height='52' rx='8'/%3E%3Ccircle cx='150' cy='104' r='18'/%3E%3Crect x='134' y='122' width='32' height='56' rx='9'/%3E%3Ccircle cx='236' cy='114' r='15'/%3E%3Crect x='223' y='129' width='26' height='49' rx='8'/%3E%3C/g%3E%3Crect x='0' y='0' width='320' height='240' fill='%23ff5d6c' fill-opacity='.07'/%3E%3C/svg%3E">
+          <figcaption>末班地铁 · 创作者 林向晚</figcaption>
+        </figure>
+        <figure class="jd-wall-item jd-wall-sm">
+          <img alt="影像墙作品：木屑与刨刀特写" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 240'%3E%3Crect width='320' height='240' fill='%23e5dbc6'/%3E%3Cpath d='M0 170 L320 140 V240 H0 Z' fill='%23a67c52' fill-opacity='.6'/%3E%3Cg stroke='%237a5232' stroke-width='7' stroke-linecap='round'%3E%3Cpath d='M40 168 L150 96'/%3E%3Cpath d='M180 150 L260 90'/%3E%3C/g%3E%3Cg fill='%23ffffff' fill-opacity='.6'%3E%3Ccircle cx='90' cy='60' r='3.4'/%3E%3Ccircle cx='150' cy='44' r='2.6'/%3E%3Ccircle cx='220' cy='70' r='3'/%3E%3Ccircle cx='268' cy='40' r='2.4'/%3E%3C/g%3E%3C/svg%3E">
+          <figcaption>工作台上的光 · 创作者 阿辽手作</figcaption>
+        </figure>
+        <figure class="jd-wall-item jd-wall-sm">
+          <img alt="影像墙作品：夜晚排练室里的吉他琴颈" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 240'%3E%3Crect width='320' height='240' fill='%23141722'/%3E%3Ccircle cx='80' cy='80' r='54' fill='%23ff5d6c' fill-opacity='.3'/%3E%3Ccircle cx='250' cy='170' r='62' fill='%235a7cff' fill-opacity='.24'/%3E%3Cg stroke='%23ffffff' stroke-opacity='.5' stroke-width='3' stroke-linecap='round'%3E%3Cpath d='M110 210 L210 60'/%3E%3Cpath d='M130 210 L230 60'/%3E%3C/g%3E%3Cg fill='%23f6d365' fill-opacity='.7'%3E%3Ccircle cx='150' cy='180' r='4'/%3E%3Ccircle cx='172' cy='146' r='4'/%3E%3Ccircle cx='194' cy='112' r='4'/%3E%3C/g%3E%3C/svg%3E">
+          <figcaption>排练第四小时 · 创作者 周与声</figcaption>
+        </figure>
+        <figure class="jd-wall-item jd-wall-mid">
+          <img alt="影像墙作品：山顶云海与徒步者的背影" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 360'%3E%3Cdefs%3E%3ClinearGradient id='w5' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%237b9db0'/%3E%3Cstop offset='1' stop-color='%23dae6e4'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='640' height='360' fill='url(%23w5)'/%3E%3Cpath d='M0 200 L110 130 L210 196 L320 110 L440 200 L540 142 L640 200 V360 H0 Z' fill='%23354248' fill-opacity='.78'/%3E%3Cpath d='M0 250 Q160 216 320 250 T640 236 V360 H0 Z' fill='%23ffffff' fill-opacity='.62'/%3E%3Ccircle cx='500' cy='72' r='30' fill='%23ffffff' fill-opacity='.8'/%3E%3Cg stroke='%23273338' stroke-width='4' fill='none'%3E%3Cpath d='M300 250 l10 -26 l10 26'/%3E%3Cpath d='M290 250 h40'/%3E%3C/g%3E%3C/svg%3E">
+          <figcaption>云层之上 · 创作者 李行野</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="jd-section" id="jdReviews">
+    <div class="jd-wrap">
+      <div class="jd-sec-head">
+        <div class="jd-sec-kicker">Community Voice</div>
+        <h2>用户评价 · 真实的社区反馈</h2>
+        <p>来自评论区、问卷与站内信件，未经润色。</p>
+      </div>
+      <div class="jd-review-list">
+
+        <article class="jd-review">
+          <div class="jd-review-head">
+            <span class="jd-avatar" style="background:#ff5d6c">木</span>
+            <b>木子同学</b><span>11-16</span>
+          </div>
+          <p>看《同一栋楼里的两种时间》看到一半就暂停了，因为想起自己公司那层楼的保洁阿姨。第二天我真的跟她聊了十分钟。这是我第一次因为一个视频去做一件具体的事。</p>
+          <div class="jd-stars">★★★★★</div>
+        </article>
+
+        <article class="jd-review">
+          <div class="jd-review-head">
+            <span class="jd-avatar" style="background:#3b4a6b">夜</span>
+            <b>夜航船</b><span>11-14</span>
+          </div>
+          <p>画质是真的稳，暗部细节没糊，声音也干净。作为做后期的，我很少会夸别人的调色，但这家的夜景片段确实处理得讲究。</p>
+          <div class="jd-stars">★★★★★</div>
+        </article>
+
+        <article class="jd-review">
+          <div class="jd-review-head">
+            <span class="jd-avatar" style="background:#b98a57">老</span>
+            <b>老周不加班</b><span>11-12</span>
+          </div>
+          <p>手作那条看完顺手把家里堆着的旧木板翻出来了。视频节奏偏慢，但慢得有道理，每一步都看得清楚。</p>
+          <div class="jd-stars">★★★★☆</div>
+        </article>
+
+        <article class="jd-review">
+          <div class="jd-review-head">
+            <span class="jd-avatar" style="background:#6b5bd2">一</span>
+            <b>一只咸鱼</b><span>11-10</span>
+          </div>
+          <p>希望收藏夹能按专题分类，我已经收藏了太多条，找起来有点乱。另外建议加一个「稍后看」队列。</p>
+          <div class="jd-stars">★★★★☆</div>
+        </article>
+
+        <article class="jd-review">
+          <div class="jd-review-head">
+            <span class="jd-avatar" style="background:#3b7a6b">南</span>
+            <b>南方有雨</b><span>11-08</span>
+          </div>
+          <p>投稿流程比想象中顺利，提了三个选题方向，第二天就收到编辑的回复，给的建议很具体，不是模板话术。</p>
+          <div class="jd-stars">★★★★★</div>
+        </article>
+
+        <article class="jd-review">
+          <div class="jd-review-head">
+            <span class="jd-avatar" style="background:#e59a4c">橘</span>
+            <b>橘猫管理员</b><span>11-05</span>
+          </div>
+          <p>猫那条我反复看了很多遍。没有煽情的旁白，只有房间的声音，这种克制很难得，也很舒服。</p>
+          <div class="jd-stars">★★★★★</div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- DYNAMIC -->
+  <section class="jd-section jd-alt" id="jdDynamic">
+    <div class="jd-wrap">
+      <div class="jd-sec-head">
+        <div class="jd-sec-kicker">Newsroom</div>
+        <h2>企业动态 · 官方发布与内容更新</h2>
+        <p>品牌资讯、活动公告与合作进展，按月整理。</p>
+      </div>
+      <div class="jd-news-grid">
+        <ul class="jd-news-list">
+          <li>
+            <span class="jd-news-date">2026-11-18</span>
+            <div>
+              <h4>专题「两面之间」第四季正式上线</h4>
+              <p>首批 6 期内容同步发布，覆盖手作、音乐、医疗与教育四个领域，全部为原创拍摄。</p>
+            </div>
+          </li>
+          <li>
+            <span class="jd-news-date">2026-11-15</span>
+            <div>
+              <h4>创作者激励计划第 4 期报名开启</h4>
+              <p>面向入驻创作者开放，提供制作补贴、选题辅导与流量支持，报名截止 12 月 15 日。</p>
+            </div>
+          </li>
+          <li>
+            <span class="jd-news-date">2026-11-09</span>
+            <div>
+              <h4>站内内容审核规范完成年内第二次修订</h4>
+              <p>新增对未成年人出镜素材的授权要求，并明确二创内容的署名规则。</p>
+            </div>
+          </li>
+          <li>
+            <span class="jd-news-date">2026-11-02</span>
+            <div>
+              <h4>与三家在地文化机构达成内容合作</h4>
+              <p>合作方向包括城市口述史采集、非遗技艺记录与青年创作者扶持。</p>
+            </div>
+          </li>
+          <li>
+            <span class="jd-news-date">2026-10-26</span>
+            <div>
+              <h4>客户端更新：收藏夹支持自定义分组</h4>
+              <p>本次更新同时优化了竖屏短片的播放清晰度切换逻辑。</p>
+            </div>
+          </li>
+        </ul>
+        <div>
+          <h3 style="font-size:17px;color:var(--jd-ink);margin:0 0 14px">合作品牌与伙伴</h3>
+          <div class="jd-partner-grid">
+            <div class="jd-partner">青岚文化</div>
+            <div class="jd-partner">归野影业</div>
+            <div class="jd-partner">木光家居</div>
+            <div class="jd-partner">拾光书店</div>
+            <div class="jd-partner">南岸剧场</div>
+            <div class="jd-partner">白鹿影像</div>
+          </div>
+          <p style="font-size:13.5px;color:var(--jd-sub);margin:18px 0 0;line-height:1.8">我们与内容机构、制作团队与在地文化单位保持长期合作，共同推动多元题材的规范化制作与正版内容流通。合作咨询请通过下方联系表单提交。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="jd-section" id="jdFaq">
+    <div class="jd-wrap">
+      <div class="jd-sec-head">
+        <div class="jd-sec-kicker">Help Center</div>
+        <h2>常见问题 · 帮助中心</h2>
+        <p>关于内容、创作者与合作的常见疑问。</p>
+      </div>
+      <div class="jd-faq">
+        <details open>
+          <summary>如何成为极品反差的入驻创作者？</summary>
+          <p>通过页面底部的投稿入口提交申请，附上 2 至 3 条代表作与选题方向。内容团队会在 5 个工作日内回复，通过后即可开通创作者主页、上传作品并参与专题企划。</p>
+        </details>
+        <details>
+          <summary>平台的内容审核标准是什么？</summary>
+          <p>所有对外发布的内容均需经过人工审片，核实画面版权、出镜授权与信息披露。我们要求内容真实、来源清晰，并对涉及未成年人的素材执行更严格的授权流程。</p>
+        </details>
+        <details>
+          <summary>作品上传后多久可以发布？</summary>
+          <p>常规审核时间为 24 至 48 小时。若涉及多处版权素材或特殊题材，会延长至 3 个工作日，并在审片意见中说明具体原因。</p>
+        </details>
+        <details>
+          <summary>可以使用平台内容做二次创作吗？</summary>
+          <p>在标注来源与作者、且不用于商业用途的前提下，允许进行说明性引用。完整作品的商业使用需取得品牌与创作者双方的书面授权，具体可在联系表单中说明用途。</p>
+        </details>
+        <details>
+          <summary>专题企划如何参与共创？</summary>
+          <p>每期专题开放时会在创作者中心发布征稿说明，包含主题限定、时长要求与提交格式。也可以在「反差挑战赛」中上传作品，优胜内容将进入年度精选合辑。</p>
+        </details>
+        <details>
+          <summary>视频的清晰度与音轨有哪些规格？</summary>
+          <p>推荐上传 1080P 及以上、H.264 编码的横竖屏素材，音轨采样率 48kHz。平台会按终端自动适配清晰度，原始文件保留在创作者后台。</p>
+        </details>
+        <details>
+          <summary>品牌是否接受企业定制拍摄？</summary>
+          <p>接受。我们提供纪录短片、人物访谈与品牌故事三类定制方向，流程包含前期调研、脚本共创、拍摄执行与成片交付，详细报价与排期请通过联系表单获取。</p>
+        </details>
+        <details>
+          <summary>如何反馈内容问题或提出建议？</summary>
+          <p>在任意作品的详情页可提交反馈，也可以直接通过下方联系邮箱说明情况。内容运营团队会逐条登记，涉及版权与安全的问题会优先处理。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="jd-section" id="jdContact">
+    <div class="jd-wrap">
+      <div class="jd-contact-wrap">
+        <div class="jd-contact-inner">
+          <div>
+            <h2>联系我们 · 投稿与合作</h2>
+            <p>无论是作品投稿、专题共创还是企业定制，我们都愿意认真读完每一份说明。品牌坚持真人回复，不用自动应答。</p>
+            <div class="jd-contact-info">
+              <span><b>内容合作</b>studio@jipinfancha.example</span>
+              <span><b>品牌商务</b>brand@jipinfancha.example</span>
+              <span><b>办公地址</b>工作室位于城市老城区改造片区，来访请提前预约</span>
+              <span><b>工作时间</b>周一至周五 10:00 - 19:00</span>
+            </div>
+          </div>
+          <form class="jd-contact-form" onsubmit="jdSubmitContact(event)">
+            <input type="text" placeholder="你的称呼" required aria-label="你的称呼">
+            <input type="email" placeholder="联系邮箱" required aria-label="联系邮箱">
+            <textarea placeholder="想聊的内容 / 合作方向 / 作品链接" required aria-label="内容说明"></textarea>
+            <button class="jd-btn jd-btn-primary" type="submit" style="justify-content:center">提交信息</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="jd-footer">
+  <div class="jd-wrap">
+    <div class="jd-footer-grid">
+      <div>
+        <div class="jd-footer-brand">
+          <span class="jd-logo-mark">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4l14 8-14 8z" fill="#fff"/></svg>
+          </span>
+          <span class="jd-logo-text">
+            <span class="jd-logo-name">极品反差</span>
+            <span class="jd-logo-sub">Contrast Studio</span>
+          </span>
+        </div>
+        <p>极品反差官方网站 · 原创影像内容品牌。以多元视角与叙事张力为核心，持续运营高品质视频社区与内容生态。</p>
+        <p>我们相信真实的表达拥有温和而持久的力量。</p>
+      </div>
+      <div>
+        <h4>浏览</h4>
+        <ul>
+          <li><a href="#jdSpotlight">焦点内容</a></li>
+          <li><a href="#jdVideos">视频精选</a></li>
+          <li><a href="#jdTopics">专题企划</a></li>
+          <li><a href="#jdWall">社区影像墙</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>参与</h4>
+        <ul>
+          <li><a href="#jdCreators">创作者矩阵</a></li>
+          <li><a href="#jdDynamic">企业动态</a></li>
+          <li><a href="#jdFaq">帮助中心</a></li>
+          <li><a href="#jdContact">投稿与合作</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>关于</h4>
+        <ul>
+          <li><a href="#jdAbout">品牌故事</a></li>
+          <li><a href="#jdReviews">用户评价</a></li>
+          <li><a href="#jdContact">联系方式</a></li>
+          <li><a href="#jdTop">回到首页</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="jd-footer-bottom">
+      <span>© 2026 极品反差 版权所有 · 持续运营中</span>
+      <span>原创内容受版权保护 · 转载与商业使用需获授权</span>
+    </div>
+  </div>
+</footer>
+
+<div class="jd-toast" id="jdToast" role="status" aria-live="polite"></div>
+
+<button class="jd-top" id="jdTopBtn" type="button" aria-label="回到顶部" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+</button>
+
+<div class="jd-modal-mask" id="jdModalMask">
+  <div class="jd-modal" role="dialog" aria-modal="true" aria-labelledby="jdModalTitle">
+    <button class="jd-modal-close" type="button" aria-label="关闭" onclick="jdCloseModal()">×</button>
+    <h3 id="jdModalTitle">投稿报名</h3>
+    <p id="jdModalDesc">填写基本信息，内容团队会在 5 个工作日内与你联系。</p>
+    <form onsubmit="jdSubmitModal(event)">
+      <label for="jdMName">称呼</label>
+      <input id="jdMName" type="text" placeholder="如何称呼你" required>
+      <label for="jdMMail">联系邮箱</label>
+      <input id="jdMMail" type="email" placeholder="用于接收回复" required>
+      <label for="jdMNote">作品说明 / 选题方向</label>
+      <textarea id="jdMNote" placeholder="简单介绍你的作品或想做的内容" required></textarea>
+      <button class="jd-btn jd-btn-primary" type="submit" style="width:100%;justify-content:center">提交报名</button>
+    </form>
+  </div>
+</div>
+
+<script>
+(function(){
+  'use strict';
+
+  var toastEl = document.getElementById('jdToast');
+  var toastTimer = null;
+  window.jdToast = function(msg){
+    toastEl.textContent = msg;
+    toastEl.classList.add('jd-show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.classList.remove('jd-show'); }, 2200);
+  };
+
+  /* 搜索 */
+  var searchInput = document.getElementById('jdSearchInput');
+  var searchHint = document.getElementById('jdSearchHint');
+  var pool = [
+    '两面之间 · 人物访谈专题',
+    '同一栋楼里的两种时间',
+    '废料重生计划',
+    '凌晨四点的城市',
+    '一支片子被推翻七次之后',
+    '搬家第七天，它愿意睡在窗边',
+    '反差挑战赛 · 报名中',
+    '阿辽手作 · 创作者主页',
+    '陈叙白 · 创作者主页',
+    '内容行业的下一个五年'
+  ];
+  window.jdSearch = function(){
+    var kw = (searchInput.value || '').trim();
+    if(!kw){
+      jdToast('请输入关键词后再搜索');
+      return;
+    }
+    var hit = pool.filter(function(t){ return t.indexOf(kw) > -1; });
+    if(hit.length){
+      jdToast('找到 ' + hit.length + ' 条与「' + kw + '」相关的内容');
+    }else{
+      jdToast('暂未找到「' + kw + '」，试试「人物」或「城市」');
+    }
+    searchHint.classList.remove('jd-open');
+  };
+  if(searchInput){
+    searchInput.addEventListener('input', function(){
+      var kw = this.value.trim();
+      if(!kw){ searchHint.classList.remove('jd-open'); return; }
+      var hit = pool.filter(function(t){ return t.indexOf(kw) > -1; }).slice(0,5);
+      if(hit.length){
+        searchHint.innerHTML = hit.map(function(t){
+          return '<p onclick="jdPickSearch(\'' + t.replace(/'/g,"\\'") + '\')">' + t + '</p>';
+        }).join('');
+      }else{
+        searchHint.innerHTML = '<p class="jd-empty">暂无匹配结果，换个关键词试试</p>';
+      }
+      searchHint.classList.add('jd-open');
+    });
+    searchInput.addEventListener('keydown', function(e){
+      if(e.key === 'Enter'){ e.preventDefault(); jdSearch(); }
+    });
+  }
+  window.jdPickSearch = function(t){
+    searchInput.value = t;
+    searchHint.classList.remove('jd-open');
+    jdToast('已定位：' + t);
+  };
+  document.addEventListener('click', function(e){
+    if(searchHint && !e.target.closest('.jd-search')){
+      searchHint.classList.remove('jd-open');
+    }
+  });
+
+  /* 点赞 */
+  window.jdLike = function(btn, base){
+    var span = btn.querySelector('span');
+    var on = btn.classList.toggle('jd-on');
+    var num = parseInt(span.textContent, 10) || base;
+    num = on ? num + 1 : Math.max(0, num - 1);
+    span.textContent = num;
+    if(on) jdToast('已点赞，感谢你的支持');
+  };
+
+  /* 收藏 */
+  window.jdFav = function(btn){
+    var on = btn.classList.toggle('jd-on');
+    btn.textContent = on ? '已收藏' : '收藏';
+    jdToast(on ? '已加入收藏夹' : '已取消收藏');
+  };
+
+  /* 数字滚动 */
+  var counted = false;
+  function runCount(){
+    if(counted) return;
+    var nodes = document.querySelectorAll('[data-count]');
+    if(!nodes.length) return;
+    var first = nodes[0];
+    var rect = first.getBoundingClientRect();
+    if(rect.top > window.innerHeight - 40) return;
+    counted = true;
+    nodes.forEach(function(node){
+      var target = parseInt(node.getAttribute('data-count'), 10);
+      var em = node.querySelector('em');
+      var suffix = em ? em.outerHTML : '';
+      var cur = 0;
+      var step = Math.max(1, Math.round(target / 42));
+      var timer = setInterval(function(){
+        cur += step;
+        if(cur >= target){ cur = target; clearInterval(timer); }
+        node.innerHTML = cur + suffix;
+      }, 26);
+    });
+  }
+  window.addEventListener('scroll', runCount, {passive:true});
+  window.addEventListener('load', runCount);
+
+  /* 回到顶部 */
+  var topBtn = document.getElementById('jdTopBtn');
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 520){ topBtn.classList.add('jd-show'); }
+    else{ topBtn.classList.remove('jd-show'); }
+  }, {passive:true});
+
+  /* 弹窗 */
+  var mask = document.getElementById('jdModalMask');
+  window.jdOpenModal = function(){
+    mask.classList.add('jd-show');
+    document.body.style.overflow = 'hidden';
+  };
+  window.jdCloseModal = function(){
+    mask.classList.remove('jd-show');
+    document.body.style.overflow = '';
+  };
+  mask.addEventListener('click', function(e){
+    if(e.target === mask) jdCloseModal();
+  });
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape') jdCloseModal();
+  });
+
+  /* 提交 */
+  window.jdSubmitModal = function(e){
+    e.preventDefault();
+    jdCloseModal();
+    e.target.reset();
+    jdToast('报名已提交，我们会尽快与你联系');
+  };
+  window.jdSubmitContact = function(e){
+    e.preventDefault();
+    e.target.reset();
+    jdToast('信息已提交，感谢你的信任');
+  };
+})();
+</script>
+</body>
+            </html>
